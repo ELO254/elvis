@@ -1,0 +1,21 @@
+p{
+  color: blue;
+}
+body{
+  background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.britannica.com%2F44%2F193844-050-11485B18%2Fball-net-basketball-game-arena.jpg&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Fstory%2Fwhy-are-basketball-hoops-10-feet-high&tbnid=eTu2NhGTqEl31M&vet=12ahUKEwjHh-Cjoc78AhWCkScCHYWKDTUQMygFegUIARDnAQ..i&docid=oV4lXJUYIXYxbM&w=1600&h=1074&q=basketball&client=firefox-b-lm&ved=2ahUKEwjHh-Cjoc78AhWCkScCHYWKDTUQMygFegUIARDnAQ");
+}
+table{
+  border: black;
+  max-width: 100px;
+  padding-right: 100px;
+
+}
+th,td{
+  border: 5px solid black;
+  padding-left: 200px;
+}
+tr:nth-child(even){
+  background: black;
+}
+
+

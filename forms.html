@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>form</title>
+  <link rel="icon" href="img/emo.jpg">
+</head>
+<body>
+<style>
+  form{
+    background-color: grey;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background-image: url("img/emobilis.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  header{
+    background-image: url("img/emo.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 300px;
+    alignment: center;
+  }
+</style>
+<header>
+  <h1>EMOBILIS REGISTRATION</h1>
+</header>
+<form action="location.html" method="post" target="_blank">
+  <label for="full name"><h1>full name</h1></label><br>
+  <input type="text" id="full name" placeholder="fullname" name="name">
+  <br>
+  <label for="email address"><h1>email address</h1></label><br>
+  <input type="email" id="email address" placeholder="email address" name="email">
+  <br>
+  <label for="contact"><h1>contact</h1></label><br>
+  <input type="text" id="contact" placeholder="contact" name="contact">
+  <br>
+  <label for="password"><h1>password</h1></label><br>
+  <input type="password" id="password" placeholder="password" name="pass">
+  <br>
+  <h1>gender</h1>
+  <br>
+  <label for="male">male</label>
+  <input type="radio" id="male" name="gender">
+  <label for="female">female</label>
+  <input type="radio" id="female" name="gender"><br>
+  <label for="student pic"><h1>student pic</h1></label><br>
+  <input type="file"id="student pic" name="pic"><br>
+  <label for="course"><h1>course</h1></label><br>
+  <select name="course" id="course">
+    <option value="html">html</option>
+    <option value="java script">java script</option>
+    <option value="android">android</option>
+    <option value="gps">GPS</option>
+    <option value="apllication development">application development</option>
+  </select><br>
+  <input type="submit" value="register here" onclick="alert('are you sure')">
+</form>
+
+
+</body>
+</html>
